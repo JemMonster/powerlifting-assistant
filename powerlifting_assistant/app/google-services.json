@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "880791471230",
+    "project_id": "assistentpowerliftera",
+    "storage_bucket": "assistentpowerliftera.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880791471230:android:3d13638e1380c124b1c42f",
+        "android_client_info": {
+          "package_name": "com.powerlifting_assistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALbOgZ9xqXf1CV0IUmT77fBcF1XxxI3lM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

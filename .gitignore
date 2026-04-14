@@ -1,0 +1,96 @@
+# ========================
+# Общее для Gradle и сборки
+# ========================
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Выходные файлы сборки (клиент + сервер)
+**/build/
+**/bin/
+**/out/
+**/gen/
+**/obj/
+
+# ========================
+# IDE (Android Studio, IntelliJ)
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+.vscode/
+.settings/
+.project
+.classpath
+
+# ========================
+# Локальные конфиги
+# ========================
+local.properties
+keystore.properties
+server-local.properties
+**/local.properties
+**/server-local.properties
+
+# Firebase (никогда не коммитьте реальные ключи)
+*firebase-adminsdk*.json
+google-services.json   # если лежит реальный, удалите из истории и добавьте сюда
+
+# ========================
+# Временные файлы ОС и редакторов
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+*.log
+*.tmp
+.cache/
+
+# ========================
+# Kotlin / Java
+# ========================
+.kotlin/
+.ksp/
+*.class
+*.jar   # обычно библиотеки в libs/ исключать не нужно, но если есть сомнения — раскомментировать
+# !**/libs/*.jar   # если нужно сохранить jar-библиотеки, добавьте эту строку
+
+# ========================
+# Android-специфичное
+# ========================
+captures/
+.externalNativeBuild/
+*.apk
+*.aab
+*.dex
+*.hprof
+.navigation/
+*.iml
+**/build/intermediates/
+**/build/outputs/
+
+# ========================
+# Серверная часть (Ktor, Kotlin)
+# ========================
+**/build/classes/kotlin/
+**/build/classes/kotlin/main/
+**/build/classes/kotlin/test/
+**/bin/
+
+# ========================
+# Node.js / npm (если вдруг понадобится)
+# ========================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ========================
+# Файлы тестов и отчёты
+# ========================
+test-output/
+test-results/
+*.trx
